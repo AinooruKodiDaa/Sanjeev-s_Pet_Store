@@ -1,0 +1,657 @@
+{
+  "users": [
+    {
+      "id": "9f55",
+      "firstName": "Sanjeev",
+      "lastName": "Gunasekaran",
+      "username": "sanjeev123",
+      "password": "Sanjeev@123",
+      "role": "admin",
+      "createdAt": "2024-03-19T12:00:00Z",
+      "updatedAt": "2024-03-23T12:00:00Z"
+    },
+    {
+      "id": "4bd2",
+      "firstName": "Nivetha",
+      "lastName": "Shetty",
+      "username": "nivetha123",
+      "password": "Nivetha@123",
+      "role": "customer",
+      "createdAt": "2024-03-14T12:00:00Z",
+      "updatedAt": "2024-03-21T12:00:00Z"
+    },
+    {
+      "id": "d847",
+      "firstName": "Anushka",
+      "lastName": "Sharma",
+      "username": "anushka@123",
+      "password": "Anushka@123",
+      "role": "customer",
+      "createdAt": "2024-04-08T12:00:00Z",
+      "updatedAt": "2024-04-08T12:00:00Z"
+    },
+    {
+      "id": "153f",
+      "firstName": "Customer",
+      "lastName": "Sample",
+      "email": "customer@somewhere.com",
+      "username": "customer123",
+      "password": "Customer@123",
+      "role": "customer",
+      "createdAt": "2024-04-12T11:10:40.116Z",
+      "updatedAt": "2024-04-12T11:10:40.116Z"
+    }
+  ],
+  "pets": [
+    {
+      "id": "a6e9",
+      "name": "Jax",
+      "age": 5,
+      "gender": "Male",
+      "stateId": "a53a",
+      "categoryId": "4287",
+      "createdAt": "2024-02-20T12:00:00Z",
+      "updatedAt": "2024-03-10T08:30:00Z"
+    },
+    {
+      "id": "e3b1",
+      "name": "Coco",
+      "age": 1,
+      "gender": "Female",
+      "stateId": "6c58",
+      "categoryId": "4f92",
+      "createdAt": "2024-01-10T12:00:00Z",
+      "updatedAt": "2024-02-05T08:30:00Z"
+    },
+    {
+      "id": "b071",
+      "name": "Jimmy",
+      "age": 4,
+      "gender": "Male",
+      "stateId": "4c72",
+      "categoryId": "0ee8",
+      "createdAt": "2024-01-01T12:00:00Z",
+      "updatedAt": "2024-01-20T08:30:00Z"
+    },
+    {
+      "id": "f864",
+      "name": "Buddy",
+      "age": 2,
+      "gender": "Male",
+      "stateId": "5384",
+      "categoryId": "4287",
+      "createdAt": "2024-02-01T12:00:00Z",
+      "updatedAt": "2024-02-20T08:30:00Z"
+    },
+    {
+      "id": "969b",
+      "name": "Meow",
+      "gender": "Female",
+      "age": "4",
+      "stateId": "a53a",
+      "categoryId": "4287",
+      "createdAt": "2024-04-11T13:28:42.490Z",
+      "updatedAt": "2024-04-11T13:28:42.490Z"
+    },
+    {
+      "id": "8c4d",
+      "name": "Lucky",
+      "gender": "Male",
+      "age": "5",
+      "stateId": "102e",
+      "categoryId": "9c72",
+      "createdAt": "2024-04-12T09:46:57.601Z",
+      "updatedAt": "2024-04-12T09:46:57.601Z"
+    },
+    {
+      "id": "da78",
+      "name": "Klaus",
+      "gender": "Male",
+      "age": "8",
+      "stateId": "5384",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T02:35:14.560Z",
+      "updatedAt": "2024-04-13T02:35:14.560Z"
+    },
+    {
+      "id": "81d3",
+      "name": "Lola",
+      "gender": "Female",
+      "age": "3",
+      "stateId": "64f9",
+      "categoryId": "9c72",
+      "createdAt": "2024-04-13T02:36:39.900Z",
+      "updatedAt": "2024-04-13T02:36:39.900Z"
+    },
+    {
+      "id": "9a2b",
+      "name": "Buzo",
+      "gender": "Male",
+      "age": "9",
+      "stateId": "67d2",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T02:37:39.053Z",
+      "updatedAt": "2024-04-13T02:37:39.053Z"
+    },
+    {
+      "id": "7e36",
+      "name": "Whisky",
+      "gender": "Female",
+      "age": "1",
+      "stateId": "e31b",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T02:40:26.451Z",
+      "updatedAt": "2024-04-13T02:40:26.451Z"
+    },
+    {
+      "id": "6fac",
+      "name": "Artyom",
+      "gender": "Male",
+      "age": "12",
+      "stateId": "4c72",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T02:41:03.340Z",
+      "updatedAt": "2024-04-13T02:41:03.340Z"
+    },
+    {
+      "id": "9b51",
+      "name": "Ginger",
+      "gender": "Male",
+      "age": "5",
+      "stateId": "a53a",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T04:26:59.449Z",
+      "updatedAt": "2024-04-13T04:26:59.449Z"
+    },
+    {
+      "id": "73e5",
+      "name": "Solomon",
+      "gender": "Male",
+      "age": "12",
+      "stateId": "9cdc",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T04:27:54.598Z",
+      "updatedAt": "2024-04-13T04:27:54.598Z"
+    },
+    {
+      "id": "6396",
+      "name": "Harry",
+      "gender": "Male",
+      "age": "3.3",
+      "stateId": "55b7",
+      "categoryId": "9c72",
+      "createdAt": "2024-04-13T04:28:39.950Z",
+      "updatedAt": "2024-04-13T04:28:39.950Z"
+    },
+    {
+      "id": "7bfc",
+      "name": "Simba",
+      "age": 2,
+      "gender": "Male",
+      "stateId": "faa0",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "5f03",
+      "name": "Milo",
+      "age": 1,
+      "gender": "Male",
+      "stateId": "6a48",
+      "categoryId": "4f92",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "9fde",
+      "name": "Fluffy",
+      "age": 3,
+      "gender": "Female",
+      "stateId": "71d8",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "d00a",
+      "name": "Max",
+      "age": 4,
+      "gender": "Male",
+      "stateId": "a53a",
+      "categoryId": "9c72",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "b5e7",
+      "name": "Bella",
+      "age": 5,
+      "gender": "Female",
+      "stateId": "ee9c",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "d2fa",
+      "name": "Charlie",
+      "age": 2,
+      "gender": "Male",
+      "stateId": "a53a",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "d9c4",
+      "name": "Tiger",
+      "age": 3,
+      "gender": "Male",
+      "stateId": "6f29",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "2ba8",
+      "name": "Molly",
+      "age": 2,
+      "gender": "Female",
+      "stateId": "0446",
+      "categoryId": "4f92",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "81ce",
+      "name": "Shadow",
+      "age": 1,
+      "gender": "Male",
+      "stateId": "db52",
+      "categoryId": "9c72",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "90d4",
+      "name": "Luna",
+      "age": 4,
+      "gender": "Female",
+      "stateId": "3c22",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "d2fa",
+      "name": "Charlie",
+      "age": 2,
+      "gender": "Male",
+      "stateId": "a53a",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "34b9",
+      "name": "Luca",
+      "age": 3,
+      "gender": "Male",
+      "stateId": "e263",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "c78d",
+      "name": "Rocky",
+      "age": 5,
+      "gender": "Male",
+      "stateId": "b459",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "9a13",
+      "name": "Fluffy",
+      "age": 1,
+      "gender": "Female",
+      "stateId": "faa0",
+      "categoryId": "4f92",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "2d5f",
+      "name": "Max",
+      "age": 4,
+      "gender": "Male",
+      "stateId": "67d2",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "bd98",
+      "name": "Lola",
+      "age": 2,
+      "gender": "Female",
+      "stateId": "faa0",
+      "categoryId": "9c72",
+      "createdAt": "2024-04-13T12:00:00Z",
+      "updatedAt": "2024-04-13T12:00:00Z"
+    },
+    {
+      "id": "4d8a",
+      "name": "Max",
+      "age": 3,
+      "gender": "Male",
+      "stateId": "bf82",
+      "categoryId": "4287",
+      "createdAt": "2024-04-14T12:00:00Z",
+      "updatedAt": "2024-04-14T12:00:00Z"
+    },
+    {
+      "id": "9b30",
+      "name": "Sophie",
+      "age": 2,
+      "gender": "Female",
+      "stateId": "faa0",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-14T12:00:00Z",
+      "updatedAt": "2024-04-14T12:00:00Z"
+    },
+    {
+      "id": "f8c1",
+      "name": "Charlie",
+      "age": 4,
+      "gender": "Male",
+      "stateId": "71d8",
+      "categoryId": "9c72",
+      "createdAt": "2024-04-14T12:00:00Z",
+      "updatedAt": "2024-04-14T12:00:00Z"
+    },
+    {
+      "id": "c1ae",
+      "name": "Lily",
+      "age": 1,
+      "gender": "Female",
+      "stateId": "a53a",
+      "categoryId": "4f92",
+      "createdAt": "2024-04-14T12:00:00Z",
+      "updatedAt": "2024-04-14T12:00:00Z"
+    },
+    {
+      "id": "18e9",
+      "name": "Cooper",
+      "age": 5,
+      "gender": "Male",
+      "stateId": "ed28",
+      "categoryId": "4287",
+      "createdAt": "2024-04-14T12:00:00Z",
+      "updatedAt": "2024-04-14T12:00:00Z"
+    },
+    {
+      "id": "eb22",
+      "name": "Lucy",
+      "age": 2,
+      "gender": "Female",
+      "stateId": "db52",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-14T12:00:00Z",
+      "updatedAt": "2024-04-14T12:00:00Z"
+    },
+    {
+      "id": "kl01",
+      "name": "Mia",
+      "age": 2,
+      "gender": "Female",
+      "stateId": "c8ca",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-15T12:00:00Z",
+      "updatedAt": "2024-04-15T12:00:00Z"
+    },
+    {
+      "id": "0a0a",
+      "name": "Sumo",
+      "gender": "Male",
+      "age": "4.5",
+      "stateId": "e632",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T04:42:01.819Z",
+      "updatedAt": "2024-04-13T04:42:01.819Z"
+    },
+    {
+      "id": "a6c0",
+      "name": "Neko",
+      "gender": "Female",
+      "age": "5.2",
+      "stateId": "093c",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T04:43:54.825Z",
+      "updatedAt": "2024-04-13T04:43:54.825Z"
+    },
+    {
+      "id": "a1f9",
+      "name": "Inu",
+      "gender": "Female",
+      "age": "2.1",
+      "stateId": "c0d8",
+      "categoryId": "4287",
+      "createdAt": "2024-04-13T04:44:36.292Z",
+      "updatedAt": "2024-04-13T04:44:36.292Z"
+    },
+    {
+      "id": "1dcc",
+      "name": "Zina",
+      "gender": "Female",
+      "age": "6.9",
+      "stateId": "ed28",
+      "categoryId": "0ee8",
+      "createdAt": "2024-04-13T04:49:04.208Z",
+      "updatedAt": "2024-04-13T04:49:04.208Z"
+    }
+  ],
+  "states": [
+    {
+      "id": "3c22",
+      "name": "Andhra Pradesh",
+      "abbreviation": "AP"
+    },
+    {
+      "id": "25e6",
+      "name": "Arunachal Pradesh",
+      "abbreviation": "AR"
+    },
+    {
+      "id": "c8ca",
+      "name": "Assam",
+      "abbreviation": "AS"
+    },
+    {
+      "id": "0446",
+      "name": "Bihar",
+      "abbreviation": "BR"
+    },
+    {
+      "id": "b459",
+      "name": "Chhattisgarh",
+      "abbreviation": "CG"
+    },
+    {
+      "id": "663f",
+      "name": "Goa",
+      "abbreviation": "GA"
+    },
+    {
+      "id": "0efd",
+      "name": "Gujarat",
+      "abbreviation": "GJ"
+    },
+    {
+      "id": "d913",
+      "name": "Haryana",
+      "abbreviation": "HR"
+    },
+    {
+      "id": "64f9",
+      "name": "Himachal Pradesh",
+      "abbreviation": "HP"
+    },
+    {
+      "id": "bf82",
+      "name": "Jammu and Kashmir",
+      "abbreviation": "JK"
+    },
+    {
+      "id": "faa0",
+      "name": "Jharkhand",
+      "abbreviation": "JH"
+    },
+    {
+      "id": "a53a",
+      "name": "Karnataka",
+      "abbreviation": "KA"
+    },
+    {
+      "id": "6c58",
+      "name": "Kerala",
+      "abbreviation": "KL"
+    },
+    {
+      "id": "67d2",
+      "name": "Madhya Pradesh",
+      "abbreviation": "MP"
+    },
+    {
+      "id": "9cdc",
+      "name": "Maharashtra",
+      "abbreviation": "MH"
+    },
+    {
+      "id": "ee9c",
+      "name": "Manipur",
+      "abbreviation": "MN"
+    },
+    {
+      "id": "be5a",
+      "name": "Meghalaya",
+      "abbreviation": "ML"
+    },
+    {
+      "id": "0aa8",
+      "name": "Mizoram",
+      "abbreviation": "MZ"
+    },
+    {
+      "id": "6a48",
+      "name": "Nagaland",
+      "abbreviation": "NL"
+    },
+    {
+      "id": "a079",
+      "name": "Odisha",
+      "abbreviation": "OR"
+    },
+    {
+      "id": "e263",
+      "name": "Punjab",
+      "abbreviation": "PB"
+    },
+    {
+      "id": "6f29",
+      "name": "Rajasthan",
+      "abbreviation": "RJ"
+    },
+    {
+      "id": "c0d8",
+      "name": "Sikkim",
+      "abbreviation": "SK"
+    },
+    {
+      "id": "5384",
+      "name": "Tamil Nadu",
+      "abbreviation": "TN"
+    },
+    {
+      "id": "71d8",
+      "name": "Telangana",
+      "abbreviation": "TG"
+    },
+    {
+      "id": "e632",
+      "name": "Tripura",
+      "abbreviation": "TR"
+    },
+    {
+      "id": "db52",
+      "name": "Uttar Pradesh",
+      "abbreviation": "UP"
+    },
+    {
+      "id": "ed28",
+      "name": "Uttarakhand",
+      "abbreviation": "UK"
+    },
+    {
+      "id": "7d4c",
+      "name": "West Bengal",
+      "abbreviation": "WB"
+    },
+    {
+      "id": "55b7",
+      "name": "Andaman and Nicobar Islands",
+      "abbreviation": "AN"
+    },
+    {
+      "id": "4c72",
+      "name": "Chandigarh",
+      "abbreviation": "CH"
+    },
+    {
+      "id": "102e",
+      "name": "Dadra and Nagar Haveli",
+      "abbreviation": "DN"
+    },
+    {
+      "id": "a9ff",
+      "name": "Daman and Diu",
+      "abbreviation": "DD"
+    },
+    {
+      "id": "e31b",
+      "name": "Delhi",
+      "abbreviation": "DL"
+    },
+    {
+      "id": "3a3c",
+      "name": "Lakshadweep",
+      "abbreviation": "LD"
+    },
+    {
+      "id": "093c",
+      "name": "Puducherry",
+      "abbreviation": "PY"
+    }
+  ],
+  "categories": [
+    {
+      "id": "4287",
+      "name": "Dog"
+    },
+    {
+      "id": "0ee8",   
+      "name": "Cat"
+    },
+    {
+      "id": "9c72",
+      "name": "Rabbit"
+    },
+    {
+      "id": "4f92",
+      "name": "Bird"
+    }
+  ]
+}

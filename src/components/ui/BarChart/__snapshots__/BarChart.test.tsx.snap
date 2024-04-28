@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarChart Component  1`] = `ShallowWrapper {}`;
+
+exports[`BarChart Component should match snapshot: ShallowWrapper {} 1`] = `ShallowWrapper {}`;
+
+exports[`BarChart Component to match snapshot 1`] = `ShallowWrapper {}`;
