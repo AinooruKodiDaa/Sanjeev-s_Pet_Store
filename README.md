@@ -1,10 +1,8 @@
-## React.js usecase: Doctor Appointment System
+## React.js : Pet Store application
 
-Dear team, Kindly refer to the steps below to install the dependencies and the scripts to run, bnuild, test the application.
+Hi, Kindly refer to the steps below to install the dependencies and the scripts to run, build, test the application.
 
-I have used material UI and bootstrap for almost all of the styled components
-
-
+I have used material UI for almost all of the styled components
 
 
 Note: 
@@ -22,6 +20,11 @@ To install dependencies you can run:
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run server`
+
+Runs the json server by reading the db.json file in the root directory
+
 
 ### `npm start`
 
